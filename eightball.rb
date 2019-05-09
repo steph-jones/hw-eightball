@@ -128,7 +128,7 @@ Please choose an option 1 through 5".colorize(:cyan)
 end
 
 def starter_menu
-    puts "Welcome, ask a question or type menu".colorize(:cyan)
+    puts "Welcome! Ask a question or type menu".colorize(:cyan)
     @input = gets.strip.downcase
     case @input              
         when "menu"           
